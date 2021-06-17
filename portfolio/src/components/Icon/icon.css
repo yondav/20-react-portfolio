@@ -1,0 +1,29 @@
+.bounce {
+  animation: bounce 0.9s forwards;
+  transition: 330ms ease-in-out;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: translateY(10%);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+  40% {
+    transform: translateY(-10%);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  65% {
+    transform: translateY(10%);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+}

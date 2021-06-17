@@ -1,5 +1,6 @@
 import React from 'react';
 import NavLink from '../NavLink/NavLink';
+import Icon from '../Icon/Icon';
 import './nav.css';
 
 import logo from '../../images/brand/circle-yd.svg';
@@ -15,9 +16,7 @@ const Nav = () => {
         <NavLink link='design'></NavLink>
         <NavLink link='about' hide='hide'></NavLink>
       </div>
-      <div className='contrast icon'>
-        <i className='fas fa-sun fa-lg'></i>
-      </div>
+      <Icon name='contrast' icon='fas fa-sun fa-lg'></Icon>
     </nav>
   );
 };
