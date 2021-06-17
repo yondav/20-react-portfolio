@@ -23,7 +23,8 @@ class Icon extends Component {
         ref={this.bounceRef}
         className={`${this.props.name} icon`}
         onMouseEnter={() => this.handleHover()}
-        onAnimationEnd={() => this.handleAnimationEnd}
+        onAnimationEnd={() => this.handleAnimationEnd()}
+        onClick={this.props.click}
       >
         <i className={this.props.icon}></i>
       </div>

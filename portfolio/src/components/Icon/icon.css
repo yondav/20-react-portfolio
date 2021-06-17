@@ -27,3 +27,8 @@
     transform: rotate(10deg);
   }
 }
+
+.nav-logo {
+  content: url('../../images/brand/circle-yd.svg');
+  width: 2.1rem;
+}

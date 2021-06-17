@@ -7,14 +7,38 @@
   --nav: rgba(226, 225, 225, 0.8);
   --primary-light: rgb(226, 225, 225);
   --bg-light: rgba(227, 227, 227, 0.27);
+  --alt-green: rgb(144, 190, 124);
   --green: rgb(106, 153, 86);
   --blue: rgb(155, 220, 254);
   --alt-blue: rgb(87, 156, 214);
+  --alt-yellow: rgb(215, 213, 125);
   --yellow: rgb(215, 186, 125);
+  --alt-orange: rgb(240, 141, 101);
   --orange: rgb(206, 145, 120);
+  --alt-red: rgb(212, 88, 88);
+  --red: rgb(206, 120, 120);
+  --pink: rgb(206, 120, 199);
 
   --ff-primary: 'Montserrat', sans-serif;
   --ff-secondary: 'Roboto Mono', monospace;
+
+  --shadow: rgba(0, 0, 0, 0.35) 0.95px 4.95px 7.6px;
+  --transition: 0.3s ease;
+}
+
+.light {
+  --primary-dark: rgb(226, 225, 225);
+  --bg-dark: rgba(227, 227, 227, 0.27);
+  --primary-light: rgb(37, 37, 38);
+  --nav: rgba(37, 37, 38, 0.8);
+  --bg-light: rgba(27, 27, 27, 0.27);
+  --alt-green: rgb(60, 90, 47);
+  --alt-yellow: rgb(110, 110, 66);
+  --yellow: rgb(185, 152, 80);
+  --blue: rgb(87, 170, 214);
+  --red: rgb(175, 92, 92);
+  --pink: rgb(156, 85, 150);
+  --alt-orange: rgb(200, 113, 78);
 }
 
 html {
@@ -41,6 +65,10 @@ h1 {
   font-weight: 700;
   line-height: 1;
   margin-bottom: 0.5rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 .hide {

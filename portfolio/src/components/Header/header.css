@@ -7,7 +7,7 @@ footer {
   width: 100vw;
   padding: 2rem 0;
   background-color: var(--bg-dark);
-  box-shadow: rgba(0, 0, 0, 0.35) 0.95px 4.95px 7.6px;
+  box-shadow: var(--shadow);
 }
 
 header .contrast {
@@ -25,16 +25,16 @@ footer .footer-logo {
   z-index: 0;
 }
 
-header .logo .yon,
-footer .footer-logo .footer-yon {
+.yon,
+.footer-yon {
   color: var(--yellow);
-  transition: 0.8s ease-in-out;
+  transition: 0.3s ease;
 }
 
-header .logo .dav,
-footer .footer-logo .footer-dav {
+.dav,
+.footer-dav {
   color: var(--blue);
-  transition: 0.8s ease-in-out;
+  transition: 0.3s ease;
 }
 
 @media only screen and (min-width: 600px) {
