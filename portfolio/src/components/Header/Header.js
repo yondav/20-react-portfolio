@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from '../Nav/Nav';
+import Button from '../Button/Button';
 import './header.css';
 import colors from './colors.js';
 
@@ -53,10 +54,7 @@ const Header = () => {
         <span className='yon'>.yon</span>
         <span className='dav'>dav</span>
       </div>
-      <div className='about-btn btn'>
-        About
-        <i className='fas fa-chevron-right fa-xs bounce hide'></i>
-      </div>
+      <Button name='about-btn' text='About'></Button>
     </header>
   );
 };
