@@ -13,10 +13,9 @@
 }
 
 .btn:hover,
-.btn:focus,
-.btn:active {
+.btn:focus {
   border-radius: 20px;
-  background-color: rgba(27, 27, 27, 0.8);
+  /* background-color: rgba(27, 27, 27, 0.8); */
   box-shadow: 0px 5px var(--bg-light);
 }
 

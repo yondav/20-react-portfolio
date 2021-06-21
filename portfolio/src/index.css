@@ -2,6 +2,7 @@
 @import url('https://use.typekit.net/vhg7llf.css');
 
 :root {
+  --body-dark: rgb(27, 27, 27);
   --primary-dark: rgb(37, 37, 38);
   --bg-dark: rgba(27, 27, 27, 0.27);
   --nav: rgba(226, 225, 225, 0.8);
@@ -27,6 +28,7 @@
 }
 
 .light {
+  --body-dark: rgb(236, 236, 236);
   --primary-dark: rgb(226, 225, 225);
   --bg-dark: rgba(227, 227, 227, 0.27);
   --primary-light: rgb(37, 37, 38);
@@ -55,8 +57,20 @@ body {
   font-size: 0.9em;
   line-height: 1.4;
   color: var(--primary-light);
-  background-color: var(--primary-dark);
+  background-color: var(--body-dark);
   transition: all 0.8s ease-in-out;
+}
+
+header,
+main,
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  padding: 2rem 0;
+  background-color: var(--primary-dark);
+  box-shadow: var(--shadow);
 }
 
 h1 {
@@ -72,5 +86,5 @@ a {
 }
 
 .hide {
-  display: none;
+  display: none !important;
 }

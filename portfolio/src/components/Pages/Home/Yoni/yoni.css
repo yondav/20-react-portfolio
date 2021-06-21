@@ -1,0 +1,220 @@
+.hero,
+.hero-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+.hero {
+  position: relative;
+  width: 90vw;
+  border: 1px solid var(--nav);
+  background-color: var(--green);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: var(--body-dark);
+}
+
+.yoni {
+  position: relative;
+  top: 1rem;
+  /* width: 100%; */
+  padding: 4rem 2rem 0;
+}
+
+.cls-1 {
+  fill: #1c1614;
+}
+.cls-2 {
+  fill: #2b2826;
+}
+.cls-12,
+.cls-13,
+.cls-15,
+.cls-18,
+.cls-19,
+.cls-2,
+.cls-20,
+.cls-21,
+.cls-22,
+.cls-23,
+.cls-24,
+.cls-25,
+.cls-27,
+.cls-3,
+.cls-30,
+.cls-31,
+.cls-8,
+.cls-9 {
+  stroke: #000;
+}
+.cls-12,
+.cls-13,
+.cls-14,
+.cls-15,
+.cls-17,
+.cls-18,
+.cls-19,
+.cls-2,
+.cls-20,
+.cls-21,
+.cls-22,
+.cls-23,
+.cls-24,
+.cls-25,
+.cls-26,
+.cls-27,
+.cls-3,
+.cls-30,
+.cls-31,
+.cls-8,
+.cls-9 {
+  stroke-miterlimit: 10;
+}
+.cls-3 {
+  fill: #bd8867;
+}
+.cls-4 {
+  fill: #b96b52;
+}
+.cls-5 {
+  fill: #996446;
+}
+.cls-6 {
+  fill: #835043;
+}
+.cls-7 {
+  fill: #674639;
+}
+.cls-8 {
+  fill: #fff;
+}
+.cls-9 {
+  fill: #29201b;
+}
+.cls-10 {
+  fill: #55483f;
+}
+.cls-11 {
+  fill: #191918;
+}
+.cls-12,
+.cls-17,
+.cls-26 {
+  fill: none;
+}
+.cls-13 {
+  fill: #cbc5ad;
+}
+.cls-14 {
+  fill: #b26a3e;
+  stroke: #2b221f;
+}
+.cls-14,
+.cls-26 {
+  stroke-width: 2px;
+}
+.cls-15 {
+  fill: #2b221f;
+}
+.cls-16 {
+  fill: #402d29;
+}
+.cls-17 {
+  stroke: #b26a3e;
+  stroke-width: 4px;
+}
+.cls-18 {
+  fill: #717b8c;
+}
+.cls-19 {
+  fill: #928b75;
+}
+.cls-20 {
+  fill: #b6a19f;
+}
+.cls-21 {
+  fill: #9d8a77;
+}
+.cls-22 {
+  fill: #c0bca4;
+}
+.cls-23 {
+  fill: #dad4b1;
+}
+.cls-24 {
+  fill: #92866d;
+}
+.cls-25 {
+  fill: #261c1e;
+}
+.cls-26 {
+  stroke: #6e3732;
+}
+.cls-27 {
+  stroke-width: 0.75px;
+}
+.cls-28,
+.cls-30 {
+  fill: #161516;
+}
+.cls-29 {
+  fill: #dbc7ba;
+}
+.cls-31 {
+  fill: #794139;
+}
+
+.pulsate {
+  animation: pulsate 1.7s infinite;
+  transition: 0.9s ease-in-out;
+  cursor: pointer;
+}
+
+.pulsate:hover,
+.pulsate:focus,
+.pulsate:active {
+  transform: scale(1.2);
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@media only screen and (min-width: 475px) {
+  .hero {
+    width: 90vw;
+    height: 80vw;
+  }
+}
+
+@media only screen and (min-width: 675px) {
+  .hero {
+    width: 90vw;
+    height: 60vw;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .hero {
+    width: 90vw;
+    height: 50vw;
+  }
+}

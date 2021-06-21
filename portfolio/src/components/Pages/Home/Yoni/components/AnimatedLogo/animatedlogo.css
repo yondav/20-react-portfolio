@@ -1,0 +1,44 @@
+.logo-container {
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  padding: 0.5rem 2rem;
+  font-family: Calibri;
+  font-size: 4em;
+  line-height: 1.3;
+  transition: 0.2s cubic-bezier(0, 1.06, 1, -0.02);
+  z-index: 0;
+  cursor: default;
+}
+
+.yon,
+.footer-yon {
+  color: var(--yellow);
+  transition: 0.3s ease;
+}
+
+.dav,
+.footer-dav {
+  color: var(--blue);
+  transition: 0.3s ease;
+}
+
+@media only screen and (min-width: 475px) {
+  .logo {
+    font-size: 5em;
+  }
+}
+
+@media only screen and (min-width: 675px) {
+  .logo {
+    font-size: 6em;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .logo {
+    font-size: 7em;
+  }
+}
