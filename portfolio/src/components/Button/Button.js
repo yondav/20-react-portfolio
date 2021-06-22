@@ -9,32 +9,32 @@ class Button extends Component {
 
   handleMouseOver() {
     let btn = this.buttonRef.current;
-    let chevron = document.querySelector('.chevron');
+    // let chevron = document.querySelector('.chevron');
     btn.style.color = 'var(--yellow)';
-    chevron.style.color = 'var(--blue)';
-    chevron.classList.remove('hide');
+    // chevron.style.color = 'var(--blue)';
+    // chevron.classList.remove('hide');
     btn.style.transform = `scale(1.1)`;
   }
 
   handleMouseLeave() {
     let btn = this.buttonRef.current;
-    let chevron = document.querySelector('.chevron');
-    chevron.classList.add('hide');
+    // let chevron = document.querySelector('.chevron');
+    // chevron.classList.add('hide');
     btn.style.transform = '';
     btn.style.color = '';
   }
 
   render() {
     return (
-      <div
+      <button
         ref={this.buttonRef}
         className={`btn ${this.props.name}`}
         onMouseOver={() => this.handleMouseOver()}
         onMouseLeave={() => this.handleMouseLeave()}
       >
         {this.props.text}
-        <i className='fas fa-chevron-down fa-xs bounce hide chevron'></i>
-      </div>
+        {/* <i className='fas fa-chevron-down fa-xs bounce hide chevron'></i> */}
+      </button>
     );
   }
 }

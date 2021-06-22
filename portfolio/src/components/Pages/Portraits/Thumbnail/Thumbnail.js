@@ -7,7 +7,7 @@ const Thumbnail = ({ name, portrait, date, id }) => {
   return (
     <div className={`portrait-card thumb${id}`}>
       <div
-        className={`portrait-thumbnail`}
+        className={'portrait-thumbnail'}
         style={{ backgroundImage: `url(${portrait})` }}
       ></div>
       <div className='card-body'>

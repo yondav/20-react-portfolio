@@ -21,6 +21,15 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="http://daigofuji.github.io/bbclub-font/css/bbclub-font.css"
+    />
+
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -52,7 +61,6 @@
       const nav = document.querySelector('nav');
       const scrollHeight = window.pageYOffset;
       const headHeight = nav.getBoundingClientRect().height;
-      console.log(headHeight);
       if (scrollHeight > headHeight) {
         nav.classList.add('fixed-nav');
       } else {

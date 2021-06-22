@@ -1,9 +1,13 @@
 .btn {
-  padding: 0.5rem;
-  text-transform: lowercase;
+  align-self: flex-end;
+  width: fit-content;
+  margin: 0.75rem 0;
+  padding: 1rem;
+  font-size: 1rem;
   color: var(--primary-light);
+  background-color: transparent;
   border: 1px solid var(--primary-light);
-  border-radius: 5px;
+  border-radius: 0.5rem;
   cursor: pointer;
   transition: 330ms ease-in-out;
 }
@@ -14,12 +18,11 @@
 
 .btn:hover,
 .btn:focus {
-  border-radius: 20px;
-  /* background-color: rgba(27, 27, 27, 0.8); */
+  border-radius: 1rem;
   box-shadow: 0px 5px var(--bg-light);
 }
 
 .btn:active {
-  border-radius: 20px;
+  border-radius: 1rem;
   box-shadow: inset 0px 5px var(--bg-light);
 }

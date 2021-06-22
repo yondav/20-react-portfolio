@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import Socials from './components/Socials/Socials';
 import Dev from './components/Pages/Dev/Dev';
 import Portraits from './components/Pages/Portraits/Portraits';
+import Contact from './components/Pages/Contact/Contact';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route exact path='/' component={Home} />
         <Route exact path='/dev' component={Dev} />
         <Route exact path='/portraits' component={Portraits} />
+        <Route exact path='/contact' component={Contact} />
         <Socials />
         <Footer />
       </div>

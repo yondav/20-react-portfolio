@@ -18,7 +18,7 @@ const Tech = ({ fa, tech, tag }) => {
   };
 
   return (
-    <div className='tech-icon'>
+    <div className={`tech-icon tech-icon-${tech}`}>
       <i
         className={`${fa} ${tech}`}
         onMouseOver={showTag}

@@ -100,3 +100,12 @@
 .thumb14 .underline {
   background-color: var(--green);
 }
+
+@media only screen and (min-width: 990px) {
+  .portrait-thumbnail:hover,
+  .portrait-thumbnail:focus,
+  .portrait-thumbnail:active {
+    box-shadow: var(--shadow);
+    transform: scale(1.5);
+  }
+}
