@@ -31,9 +31,11 @@ const Apps = ({ appName, appTitle, github, deployed, desc, tech, gif }) => {
             <a href={github} target='_blank' rel='noreferrer'>
               <Icon name='github' icon='github'></Icon>
             </a>
-            <a href={deployed} target='_blank' rel='noreferrer'>
-              <Icon name='web' icon='web'></Icon>
-            </a>
+            {deployed && (
+              <a href={deployed} target='_blank' rel='noreferrer'>
+                <Icon name='web' icon='web'></Icon>
+              </a>
+            )}
           </div>
         </div>
         <div className='underline'></div>

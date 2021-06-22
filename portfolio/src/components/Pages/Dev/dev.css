@@ -7,10 +7,29 @@
   row-gap: 1rem;
 }
 
+.page-title {
+  padding: 1rem;
+  background-color: var(--body-dark);
+  border-radius: 1rem;
+}
+
+.page-title h1 {
+  margin-top: 0.5rem;
+  font-size: 4em;
+}
+
+.page-title .underline {
+  background-color: var(--yellow);
+}
+
 @media only screen and (min-width: 630px) {
   .dev-grid {
     grid-template-columns: repeat(2, 2fr);
     grid-template-rows: auto;
+  }
+
+  .page-title {
+    grid-column: span 2;
   }
 }
 
@@ -18,5 +37,9 @@
   .dev-grid {
     grid-template-columns: repeat(3, 2fr);
     grid-template-rows: auto;
+  }
+
+  .page-title {
+    grid-column: span 3;
   }
 }
