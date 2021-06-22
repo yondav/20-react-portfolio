@@ -3,10 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/fav.svg" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
@@ -36,9 +33,7 @@
     <title>yondav</title>
   </head>
   <body>
-    <noscript
-      >You need to enable JavaScript to run this app.</noscript
-    >
+    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -51,4 +46,18 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script>
+    // fixed nav
+    window.addEventListener('scroll', () => {
+      const nav = document.querySelector('nav');
+      const scrollHeight = window.pageYOffset;
+      const headHeight = nav.getBoundingClientRect().height;
+      console.log(headHeight);
+      if (scrollHeight > headHeight) {
+        nav.classList.add('fixed-nav');
+      } else {
+        nav.classList.remove('fixed-nav');
+      }
+    });
+  </script>
 </html>
