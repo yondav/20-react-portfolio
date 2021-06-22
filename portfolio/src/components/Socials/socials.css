@@ -26,6 +26,11 @@
   width: 4.5vw;
 }
 
+.illustrator {
+  content: url('../../images/illustrator.svg');
+  width: 4.5vw;
+}
+
 @media only screen and (min-width: 400px) {
   .footer-social-icons {
     bottom: 0;

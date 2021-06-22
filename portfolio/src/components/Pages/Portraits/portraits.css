@@ -1,4 +1,4 @@
-.dev-grid {
+.portraits-grid {
   display: grid;
   width: fit-content;
   grid-template-columns: repeat(1, 2fr);
@@ -18,12 +18,16 @@
   font-size: 4em;
 }
 
-.dev-grid .page-title .underline {
+.portraits-grid .page-title .underline {
+  background-color: var(--green) !important;
+}
+
+.portraits-grid .page-title .underline {
   background-color: var(--yellow);
 }
 
 @media only screen and (min-width: 630px) {
-  .dev-grid {
+  .portraits-grid {
     grid-template-columns: repeat(2, 2fr);
     grid-template-rows: auto;
   }
@@ -34,7 +38,7 @@
 }
 
 @media only screen and (min-width: 990px) {
-  .dev-grid {
+  .portraits-grid {
     grid-template-columns: repeat(3, 2fr);
     grid-template-rows: auto;
   }

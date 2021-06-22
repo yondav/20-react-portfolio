@@ -5,7 +5,7 @@ import weatherGif from '../../../images/gifs/weather.gif';
 import techGif from '../../../images/gifs/tech-blog.gif';
 import employeeGif from '../../../images/gifs/employee-tracker.gif';
 
-export const projects = [
+export const data = [
   {
     id: 1,
     appName: 'yup',
@@ -83,7 +83,6 @@ export const projects = [
     appName: 'employee-tracker',
     appTitle: 'Employee Tracker',
     github: 'https://github.com/yondav/12-employee-tracker',
-    deployed: 'https://yup-db-v1.herokuapp.com/',
     desc: 'A command line app to track your team',
     tech: [
       { id: 1, name: 'javascript', icon: 'fab fa-js-square fa-lg' },

@@ -1,0 +1,102 @@
+.portrait-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 16rem;
+  padding: 1rem;
+  background-color: var(--body-dark);
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+  transition: all 0.4s ease-in-out;
+}
+
+.portrait-card:hover,
+.portrait-card:focus,
+.portrait-card:active {
+  transform: scale(1.1);
+}
+
+.portrait-thumbnail {
+  width: 16rem;
+  height: 16rem;
+  background-repeat: no-repeat;
+  background-size: 16rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 50px;
+  transition: 0.4s ease-in-out;
+}
+
+.portrait-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 16rem;
+  margin-bottom: 0.3rem;
+}
+
+.portrait-desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.5rem;
+}
+
+.illustrator {
+  height: 2.5rem;
+}
+
+.thumb1 .underline {
+  background-color: var(--alt-red);
+}
+
+.thumb2 .underline {
+  background-color: var(--blue);
+}
+
+.thumb3 .underline {
+  background-color: var(--yellow);
+}
+
+.thumb4 .underline {
+  background-color: var(--orange);
+}
+
+.thumb5 .underline {
+  background-color: var(--green);
+}
+
+.thumb6 .underline {
+  background-color: var(--alt-yellow);
+}
+
+.thumb7 .underline {
+  background-color: var(--pink);
+}
+
+.thumb8 .underline {
+  background-color: var(--alt-blue);
+}
+
+.thumb9 .underline {
+  background-color: var(--alt-yellow);
+}
+
+.thumb10 .underline {
+  background-color: var(--alt-orange);
+}
+
+.thumb11 .underline {
+  background-color: var(--alt-green);
+}
+
+.thumb12 .underline {
+  background-color: var(--pink);
+}
+
+.thumb13 .underline {
+  background-color: var(--blue);
+}
+
+.thumb14 .underline {
+  background-color: var(--green);
+}

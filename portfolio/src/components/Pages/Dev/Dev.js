@@ -1,6 +1,6 @@
 import React from 'react';
 import Apps from './components/Apps/Apps';
-import { projects } from './projects';
+import { data } from './data';
 
 import './dev.css';
 
@@ -12,10 +12,12 @@ const Dev = () => {
           <h1>Dev</h1>
           <div className='underline'></div>
         </div>
-        {projects.map((app) => {
-          const { appName, appTitle, github, deployed, desc, tech, gif } = app;
+        {data.map((app) => {
+          const { id, appName, appTitle, github, deployed, desc, tech, gif } =
+            app;
           return (
             <Apps
+              key={id}
               appName={appName}
               appTitle={appTitle}
               github={github}
