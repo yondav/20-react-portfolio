@@ -1,6 +1,4 @@
 import React from 'react';
-import Icon from '../Icon/Icon';
-import YDIcon from '../YDIcon/YDIcon';
 
 import './footer.css';
 

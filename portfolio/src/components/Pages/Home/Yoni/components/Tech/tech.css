@@ -23,6 +23,18 @@
   color: var(--alt-blue);
 }
 
+.html:hover,
+.html:focus,
+.html:active {
+  color: var(--orange);
+}
+
+.css:hover,
+.css:focus,
+.css:active {
+  color: var(--alt-blue);
+}
+
 .tech-tag {
   opacity: 0%;
   margin-top: 0.5rem;

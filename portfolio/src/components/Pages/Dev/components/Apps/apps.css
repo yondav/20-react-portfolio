@@ -1,0 +1,122 @@
+.app-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 16rem;
+  margin: 0 !important;
+  padding: 1rem;
+  background-color: var(--body-dark);
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+  transition: all 0.4s ease-in-out;
+}
+
+.app-card:hover,
+.app-card:focus,
+.app-card:active {
+  transform: scale(1.1);
+}
+
+.thumbnail {
+  width: 16rem;
+  height: 16rem;
+  background-repeat: no-repeat;
+  background-size: 16rem;
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 50px;
+  transition: 0.4s ease-in-out;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.app-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 6.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.app-links {
+  display: flex;
+}
+
+.card-body .github,
+.card-body .web {
+  width: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.desc {
+  height: 3.5rem;
+  line-break: normal;
+}
+
+.lang {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 4rem;
+}
+
+.lang div {
+  height: fit-content;
+  margin-left: 0.2rem;
+}
+
+.app-card .underline {
+  margin: 1rem 0;
+}
+
+.yup .thumbnail {
+  background-image: url('../../../../../images/circle-logo.svg');
+  background-color: #d07bb3;
+}
+.yup .underline {
+  background-color: var(--pink);
+}
+
+.other-side .thumbnail {
+  background-image: url('../../../../../images/earth-globe-img.png');
+  background-color: var(--body-dark);
+}
+.other-side .underline {
+  background-color: var(--alt-red);
+}
+
+.coding-chops .thumbnail {
+  background-image: url('../../../../../images/coding-chops.svg');
+  background-color: var(--body-dark);
+}
+.coding-chops .underline {
+  background-color: var(--alt-blue);
+}
+
+.weather .thumbnail {
+  background-image: url('../../../../../images/weather.svg');
+  background-color: var(--body-dark);
+}
+.weather .underline {
+  background-color: var(--alt-yellow);
+}
+
+.tech-blog .thumbnail {
+  background-image: url('../../../../../images/tech-blog.svg');
+  background-color: var(--body-dark);
+}
+.tech-blog .underline {
+  background-color: var(--alt-green);
+}
+
+.employee-tracker .thumbnail {
+  background-image: url('../../../../../images/employee-tracker.svg');
+  background-color: var(--body-dark);
+}
+.employee-tracker .underline {
+  background-color: var(--alt-orange);
+}

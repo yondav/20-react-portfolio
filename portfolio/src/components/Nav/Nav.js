@@ -18,7 +18,11 @@ const Nav = () => {
         <NavLink link='portraits'></NavLink>
         <NavLink link='contact'></NavLink>
       </div>
-      <Icon name='contrast' icon='fas fa-adjust' click={handleContrast}></Icon>
+      <Icon
+        name='contrast'
+        icon='fas fa-adjust fa-lg'
+        click={handleContrast}
+      ></Icon>
     </nav>
   );
 };
