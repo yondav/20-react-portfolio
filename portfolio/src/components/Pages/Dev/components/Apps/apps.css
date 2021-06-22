@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 16rem;
   margin: 0 !important;
   padding: 1rem;
   background-color: var(--body-dark);
@@ -119,4 +118,10 @@
 }
 .employee-tracker .underline {
   background-color: var(--alt-orange);
+}
+
+@media only screen and (min-width: 630px) {
+  .app-card {
+    width: 16rem;
+  }
 }

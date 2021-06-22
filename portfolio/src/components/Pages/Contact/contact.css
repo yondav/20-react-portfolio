@@ -23,7 +23,7 @@
 
 .chat-about {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-between; */
   align-items: center;
   margin: 0 !important;
   padding: 0.5rem 0;
@@ -36,6 +36,7 @@
 .tech-icon-project,
 .tech-icon-technology,
 .tech-icon-mets {
+  margin: 0 1rem;
   margin-bottom: 0 !important;
   text-align: center;
 }

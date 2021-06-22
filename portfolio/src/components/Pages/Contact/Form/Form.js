@@ -11,6 +11,8 @@ const Form = () => {
     message: '',
   });
 
+  const [responseResult, setResponseResult] = useState('');
+
   const handleStateChange = (e) => {
     setMailerState((prevState) => ({
       ...prevState,
@@ -21,7 +23,7 @@ const Form = () => {
   const submitEmail = async (e) => {
     e.preventDefault();
     console.log({ mailerState });
-    await fetch('http://localhost:3001/send', {
+    await fetch('/send', {
       method: 'POST',
       headers: {
         'Content-type': 'application/json',
@@ -32,9 +34,9 @@ const Form = () => {
       .then(async (res) => {
         const resData = await res;
         if (resData.status === 'success') {
-          return <Modal result='success'></Modal>;
+          setResponseResult('success');
         } else if (resData.status === 'fail') {
-          return <Modal result='fail'></Modal>;
+          setResponseResult('fail');
         }
       })
       .then(() => {
@@ -72,6 +74,7 @@ const Form = () => {
           <Button name='submit' text='Submit' type='submit'></Button>
         </div>
       </form>
+      <Modal result={responseResult}></Modal>
     </>
   );
 };
