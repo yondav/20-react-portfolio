@@ -10,7 +10,7 @@
 }
 
 .modal img {
-  width: 30%;
+  width: 10%;
 }
 
 .modal-message {
@@ -28,7 +28,7 @@
 }
 
 .fade-in-out {
-  animation: fade-in-out 5s forwards;
+  animation: fade-in-out 8s forwards;
 }
 
 @keyframes fade-in-out {

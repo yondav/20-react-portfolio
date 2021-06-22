@@ -35,6 +35,7 @@ transporter.verify((err, success) => {
 });
 
 app.post('/send', function (req, res) {
+  console.log('POST: ', req.body);
   let mailOptions = {
     from: `${req.body.mailerState.email}`,
     to: process.env.EMAIL,

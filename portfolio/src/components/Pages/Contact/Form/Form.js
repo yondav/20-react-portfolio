@@ -73,8 +73,8 @@ const Form = () => {
           />
           <Button name='submit' text='Submit' type='submit'></Button>
         </div>
+        <Modal result={responseResult}></Modal>
       </form>
-      <Modal result={responseResult}></Modal>
     </>
   );
 };
