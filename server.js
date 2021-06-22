@@ -57,6 +57,10 @@ app.post('/send', function (req, res) {
   });
 });
 
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static('client/build'));
+}
+
 // Start the API server
 app.listen(PORT, () =>
   console.log(`Serverside Server now listening on PORT ${PORT}!`)
