@@ -17,8 +17,8 @@ const Bio = () => {
           interfaces for an optimized user experience.
         </p>
         <p>
-          When not working or experimenting with the web, I practice Neil Young
-          impressions and complain about the New York Mets.
+          When not working or experimenting with the web, I like to practice
+          Neil Young impressions and complain about the New York Mets.
         </p>
       </div>
       <div className='tech-icons'>
