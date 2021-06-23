@@ -73,7 +73,7 @@
 }
 
 .yup .thumbnail {
-  background-image: url('../../../../../images/circle-logo.svg');
+  background-image: url('../../../../../images/app-thumbnails/yup.svg');
   background-color: #d07bb3;
 }
 .yup .underline {
@@ -81,7 +81,7 @@
 }
 
 .other-side .thumbnail {
-  background-image: url('../../../../../images/earth-globe-img.png');
+  background-image: url('../../../../../images/app-thumbnails/other-side.png');
   background-color: var(--body-dark);
 }
 .other-side .underline {
@@ -89,7 +89,7 @@
 }
 
 .coding-chops .thumbnail {
-  background-image: url('../../../../../images/coding-chops.svg');
+  background-image: url('../../../../../images/app-thumbnails/coding-chops.svg');
   background-color: var(--body-dark);
 }
 .coding-chops .underline {
@@ -97,7 +97,7 @@
 }
 
 .weather .thumbnail {
-  background-image: url('../../../../../images/weather.svg');
+  background-image: url('../../../../../images/app-thumbnails/weather.svg');
   background-color: var(--body-dark);
 }
 .weather .underline {
@@ -105,7 +105,7 @@
 }
 
 .tech-blog .thumbnail {
-  background-image: url('../../../../../images/tech-blog.svg');
+  background-image: url('../../../../../images/app-thumbnails/tech-blog.svg');
   background-color: var(--body-dark);
 }
 .tech-blog .underline {
@@ -113,7 +113,7 @@
 }
 
 .employee-tracker .thumbnail {
-  background-image: url('../../../../../images/employee-tracker.svg');
+  background-image: url('../../../../../images/app-thumbnails/employee-tracker.svg');
   background-color: var(--body-dark);
 }
 .employee-tracker .underline {
