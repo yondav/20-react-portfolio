@@ -1,7 +1,18 @@
+.modal-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .modal {
-  position: relative;
   display: flex;
   justify-content: space-around;
+  height: fit-content;
   padding: 1rem;
   color: var(--primary-dark);
   background-color: var(--primary-light);
@@ -35,7 +46,7 @@
   0% {
     opacity: 0%;
   }
-  50% {
+  25% {
     opacity: 100%;
   }
   100% {

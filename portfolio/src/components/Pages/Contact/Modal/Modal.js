@@ -13,32 +13,34 @@ const Modal = ({ result }) => {
 
   if (result === 'success' || result === 'fail') {
     return (
-      <article className='modal fade-in-out'>
-        {result === 'success' && (
-          <>
-            <img src={yes} alt='success' />
-            <div className='modal-message'>
-              <h1>Hooray!</h1>
-              <p>Thanks for reaching out! I'll be in touch in no time!</p>
-            </div>
-          </>
-        )}
-        {result === 'fail' && (
-          <>
-            <img src={no} alt='fail' />
-            <div className='modal-message'>
-              <h1>Oops!</h1>
-              <div className='align'>
-                <p>
-                  Something went wrong. Try again or drop me a line the old
-                  fashioned way!
-                </p>
-                {emailLink}
+      <div className='modal-container'>
+        <article className='modal fade-in-out'>
+          {result === 'success' && (
+            <>
+              <img src={yes} alt='success' />
+              <div className='modal-message'>
+                <h1>Hooray!</h1>
+                <p>Thanks for reaching out! I'll be in touch in no time!</p>
               </div>
-            </div>
-          </>
-        )}
-      </article>
+            </>
+          )}
+          {result === 'fail' && (
+            <>
+              <img src={no} alt='fail' />
+              <div className='modal-message'>
+                <h1>Oops!</h1>
+                <div className='align'>
+                  <p>
+                    Something went wrong. Try again or drop me a line the old
+                    fashioned way!
+                  </p>
+                  {emailLink}
+                </div>
+              </div>
+            </>
+          )}
+        </article>
+      </div>
     );
   } else {
     return <></>;
