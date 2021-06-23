@@ -34,7 +34,7 @@ When not working or experimenting with the web, I like to practice Neil Young im
 
 > - [Title / Repository Name](#title--repository-name)
 >   - [About / Synopsis](#about--synopsis)
->   - [Table of contents](#table-of-contents)
+>   - [Table of Contents](#table-of-contents)
 >   - [Installation](#installation)
 >   - [Usage](#usage)
 >   - [Demo](#demo)
