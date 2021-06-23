@@ -88,35 +88,3 @@ a {
 .hide {
   display: none !important;
 }
-
-.fade-in-out {
-  animation: fade-in-out 8s forwards;
-}
-
-@keyframes fade-in-out {
-  0% {
-    opacity: 0%;
-  }
-  50% {
-    opacity: 100%;
-  }
-  100% {
-    opacity: 0%;
-  }
-}
-
-.fade-in-out-short {
-  animation: fade-in-out-short 3s forwards;
-}
-
-@keyframes fade-in-out-short {
-  0% {
-    opacity: 0%;
-  }
-  50% {
-    opacity: 100%;
-  }
-  100% {
-    opacity: 0%;
-  }
-}
