@@ -5,16 +5,14 @@ import './tech.css';
 const Tech = ({ fa, tech, tag }) => {
   const showTag = () => {
     const tagLine = document.querySelector(`.tech-tag-${tech}`);
-    if (tagLine.classList.contains('fade-out')) {
-      tagLine.classList.remove('fade-out');
-    }
-    tagLine.classList.add('fade-in');
+    tagLine.classList.add('fade-in-out-short');
   };
 
   const hideTag = () => {
     const tagLine = document.querySelector(`.tech-tag-${tech}`);
-    tagLine.classList.remove('fade-in');
-    tagLine.classList.add('fade-out');
+    setTimeout(() => {
+      tagLine.classList.remove('fade-in-out-short');
+    }, 2000);
   };
 
   return (
