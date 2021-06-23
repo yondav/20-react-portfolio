@@ -1,7 +1,6 @@
 import React from 'react';
 import yes from '../../../../images/brand/thumbs-up.svg';
 import no from '../../../../images/brand/thumbs-down.svg';
-import { CSSTransition } from 'react-transition-group';
 
 import './modal.css';
 
