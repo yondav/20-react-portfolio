@@ -3,30 +3,37 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <div align="center">
-  <a href="https://yondav.us" alt"deployed">
-    <img src="./readme/circle-yd.svg" alt="yondav" width="200" />
-  </a>
   <div>
     <a href="https://github.com/yondav/20-react-portfolio" alt"repo">
       <img src="./readme/github.svg" alt="github" width="25" align="left"/>
       <p align=left>&nbsp;&nbsp;Repo</p>
     </a>
   </div>
+  <a href="https://yondav.us" alt"deployed">
+    <img src="./readme/circle-yd.svg" alt="yondav" width="200" />
+  </a>
 </div>
+<br />
 
----
+<br />
 
 ## About / Synopsis
 
 <br />
 <div align="center">
-I'm Yoni David, a 31-year-old American Freelance Full Stack developer. I'm a funky guy who likes building things and exploring web technologies. I like to resolve design problems, and create useful interfaces for an optimized user experience.
-
-When not working or experimenting with the web, I like to practice Neil Young impressions and complain about the New York Mets and this is my portfolio.
-
+<p>
+  I'm Yoni David, a 31-year-old American Freelance Full Stack developer. I'm a funky guy who likes building things and exploring web technologies. I like to resolve design problems, and create useful interfaces for an optimized user experience.
+</p>
+<br />
+<p>
+  When not working or experimenting with the web, I like to practice Neil Young impressions and complain about the New York Mets and this is my portfolio.
+</p>
 </div>
+<br />
 
 ---
+
+<br />
 
 ## Table of Contents
 
@@ -45,7 +52,11 @@ When not working or experimenting with the web, I like to practice Neil Young im
 >     - [Reporting Issues](#reporting-issues)
 >   - [License](#licenses)
 
+<br />
+
 ---
+
+<br />
 
 ## Installation
 
@@ -53,11 +64,17 @@ When not working or experimenting with the web, I like to practice Neil Young im
 
 Should you decide to clone the repo, you will have to install dependencies in the `root` directory and inside the `portfolio` directory.
 
+<br />
+
 ```
 npm i
 ```
 
+<br />
+
 In order to use [nodemailer](https://nodemailer.com/about/) you'll need to configure the `.env.EXAMPLE` file in the `root` directory.
+
+<br />
 
 ```
 EMAIL=<your email>
@@ -67,7 +84,11 @@ OAUTH_CLIENT_SECRET=<your OAUTH client secret>
 OAUTH_REFRESH_TOKEN=<your OAUTH refresh token>
 ```
 
+<br />
+
 ---
+
+<br />
 
 ## Usage
 
@@ -75,7 +96,11 @@ OAUTH_REFRESH_TOKEN=<your OAUTH refresh token>
 
 Once all dependencies are installed, you will be able to run the react app from the server side by running `npm start` in the `root` directory.
 
+<br />
+
 ---
+
+<br />
 
 ## Demo
 
@@ -103,6 +128,8 @@ Once all dependencies are installed, you will be able to run the react app from 
 
 ---
 
+<br />
+
 ## Author
 
 <br />
@@ -118,9 +145,15 @@ Once all dependencies are installed, you will be able to run the react app from 
 
 ---
 
+<br />
+
 ### Contact
 
+<br />
+
 Inquiries can be sent to [yoni@yondav.com](mailto:yoni@yondav.com)
+
+<br />
 
 ## Contributing / Issues
 
@@ -134,6 +167,8 @@ Inquiries can be sent to [yoni@yondav.com](mailto:yoni@yondav.com)
 - Make additions and changes on new, personalized branch
 - Submit [pull request](https://github.com/yondav/20-react-portfolio/pulls)
 
+<br />
+
 ---
 
 <br />
@@ -143,6 +178,8 @@ Inquiries can be sent to [yoni@yondav.com](mailto:yoni@yondav.com)
 <br />
 
 Report issues by selecting the [issues](https://github.com/yondav/20-react-portfolio/issues) tab and creating a new issue
+
+<br />
 
 ---
 
@@ -154,7 +191,11 @@ Report issues by selecting the [issues](https://github.com/yondav/20-react-portf
 
 - [MIT](https://github.com/yondav/13-e-commerce-back-end/blob/main/LICENSE)
 
+<br />
+
 ---
+
+<br />
 
 <div align="center">
   <img src="./readme/react.svg" alt="react" width="20" />
