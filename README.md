@@ -28,7 +28,7 @@ When not working or experimenting with the web, I like to practice Neil Young im
 
 ---
 
-## Table of contents
+## Table of Contents
 
 <br/>
 
