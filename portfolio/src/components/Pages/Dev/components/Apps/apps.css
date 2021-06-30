@@ -124,7 +124,7 @@
   background-size: 12rem;
   background-position: center;
   background-image: url('../../../../../images/app-thumbnails/books.png');
-  background-color: var(--primary-light);
+  background-color: #e2e1e1;
 }
 .google-books-react .underline {
   background-color: var(--pink);
