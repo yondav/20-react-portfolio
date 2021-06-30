@@ -4,6 +4,7 @@ import codingChopsGif from '../../../images/gifs/coding-chops.gif';
 import weatherGif from '../../../images/gifs/weather.gif';
 import techGif from '../../../images/gifs/tech-blog.gif';
 import employeeGif from '../../../images/gifs/employee-tracker.gif';
+import booksGif from '../../../images/gifs/books.gif';
 
 export const data = [
   {
@@ -89,5 +90,21 @@ export const data = [
       { id: 2, name: 'node', icon: 'fab fa-node-js fa-lg' },
     ],
     gif: employeeGif,
+  },
+  {
+    id: 7,
+    appName: 'google-books-react',
+    appTitle: 'My Favorite Books',
+    github: 'https://github.com/yondav/21-google-books-search',
+    deployed: 'https://yondav-21-google-books-search.herokuapp.com/',
+    desc: 'Save your favorite books. Powered by Google Books.',
+    tech: [
+      { id: 1, name: 'html', icon: 'fab fa-html5 fa-lg' },
+      { id: 2, name: 'css', icon: 'fab fa-css3-alt fa-lg' },
+      { id: 3, name: 'javascript', icon: 'fab fa-js-square fa-lg' },
+      { id: 4, name: 'node', icon: 'fab fa-node-js fa-lg' },
+      { id: 5, name: 'react', icon: 'fab fa-react fa-lg' },
+    ],
+    gif: booksGif,
   },
 ];

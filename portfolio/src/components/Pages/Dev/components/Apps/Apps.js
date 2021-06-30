@@ -5,6 +5,7 @@ import './apps.css';
 const Apps = ({ appName, appTitle, github, deployed, desc, tech, gif }) => {
   const handleMouseOver = () => {
     const thumb = document.querySelector(`.thumb${appName}`);
+    thumb.style.backgroundSize = '16rem';
     thumb.style.transform = 'scale(1.3)';
     thumb.style.borderRadius = '1rem';
     thumb.style.backgroundImage = `url(${gif})`;
@@ -12,6 +13,7 @@ const Apps = ({ appName, appTitle, github, deployed, desc, tech, gif }) => {
 
   const handleMouseLeave = () => {
     const thumb = document.querySelector(`.thumb${appName}`);
+    thumb.style.backgroundSize = '';
     thumb.style.transform = '';
     thumb.style.borderRadius = '';
     thumb.style.backgroundImage = '';

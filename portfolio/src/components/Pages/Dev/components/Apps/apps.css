@@ -120,6 +120,16 @@
   background-color: var(--alt-orange);
 }
 
+.google-books-react .thumbnail {
+  background-size: 12rem;
+  background-position: center;
+  background-image: url('../../../../../images/app-thumbnails/books.png');
+  background-color: var(--primary-light);
+}
+.google-books-react .underline {
+  background-color: var(--pink);
+}
+
 @media only screen and (min-width: 630px) {
   .app-card {
     width: 16rem;
